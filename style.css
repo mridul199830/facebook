@@ -1,0 +1,269 @@
+a{
+    color: #fff;
+}
+
+/*============================== Social Classes==========================*/
+.facebook:hover{
+        background-color: #3b5998;
+        
+}
+.twiter:hover{
+        background-color:#1da1f2;
+        
+}
+.linkedin:hover{
+        background-color: #007bb5;
+        
+}
+.google:hover{
+        background-color: #4285f4;
+        
+}
+.youtube:hover{
+    background-color: #ff0000;
+    
+}
+.massage:hover{
+        background-color: #c32aa3;
+        
+}
+.facebook:hover a,
+.twiter:hover a,
+.linkedin:hover a,
+.google:hover a,
+.youtube:hover a,
+.massage:hover a{
+    color: #fff;
+}
+
+
+.facebook,
+.twiter,
+.linkedin,
+.google,
+.youtube,
+.massage{
+transition: .3s;
+}
+/*===========================Team section global classes====================*/
+
+.team-section{
+        width: 250px;
+        height: auto;
+        margin: 50px auto;
+        position: relative;
+       
+    
+}
+
+.team-member-hover {
+    opacity: 0;
+}
+
+
+.badge {
+    position: absolute;
+    width: 60%;
+    color: #fff;
+    background: #0e8c3b;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    transform: rotate(42deg);
+    z-index: 100;
+}
+
+
+/*=======================team member with badge and hover css================================*/
+
+.team-member-section-with-badge-hover{
+    overflow: hidden;
+}
+.team-member-section-with-badge-hover .badge{
+    right: -35px;
+    top: 27px;
+}
+
+
+
+.member-properties {
+    /* background: #ccc; */
+    text-align: center;
+    overflow: hidden;
+}
+
+.team-member-appearance {
+    width: 250px;
+}
+
+.member-img>img {
+    width: 250px;
+    height: auto;
+}
+
+.member-img {
+    width: 250px;
+    height: 230px;
+    overflow: hidden;
+    margin: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    margin: 10px;
+    font-size: 18px;
+}
+
+p.position {
+    font-style: italic;
+    font-size: 18px;
+}
+
+
+.team-member-section-with-badge-hover .team-member-hover {
+    opacity: 0;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background: #312c2cb0;
+    height: 190px;
+    width: 210px;
+    color: #fff;
+    padding: 20px;
+    transition: 0.5s transform ease-in;
+    z-index: 99;
+}
+
+.team-member-section-with-badge-hover:hover .team-member-hover {
+ opacity: 1;
+ transform: translateY(-100px);
+}
+
+.member-desc {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.members-social-icons ul {
+    list-style: none;
+}
+
+.members-social-icons ul>li {
+    display: inline-block;
+    border: 1px solid #fff;
+    width: 30px;
+    height: 28px;
+    padding-top: 7px;
+    text-align: center;
+    margin: 20px 2px;
+}
+
+.members-social-icons ul>li>a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+a.social-icon-link {
+    /* border: 1px solid white; */
+}
+
+
+/*========team-memvers-name-hover========*/
+
+.team-member-name-hover-section .team-member-hover {
+    position: absolute;
+    display: block;
+    opacity: 0;
+    top: 0px;
+    left: 0;
+    background: #15d2c0;
+    height: 50px;
+    width: 210px;
+    color: #fff;
+    padding: 20px;
+   transition: 0.8s transform ease-in;
+
+}
+
+.team-member-name-hover-section:hover .team-member-hover {
+    top: 0px;
+    opacity: 1;
+    transform: translateY(-100px);
+
+}
+
+/*=========team-meambers-with-badge=======*/
+.team-member-section-with-badge{
+    overflow: hidden;
+}
+.team-member-section-with-badge .badge{
+    right: -35px;
+    top: 27px;
+}
+
+.no-effect-name{
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    background: #f3f0f0f0;
+    width: 80%;
+}
+
+
+/*========team-members-horizontal-layout====*/
+.team-members-horizontal-layout {
+    width: 550px;
+}
+.team-members-horizontal-layout .badge{
+    right: -35px;
+    top: 27px;
+  
+}
+.team-members-horizontal-layout .member-img{
+    overflow: hidden;
+    position: relative;
+
+}
+.team-members-horizontal-layout .members-social-icons ul>li {
+    border-color:#000;
+}
+.team-members-horizontal-layout>div {
+    display: inline-block;
+    width: 250px;
+    overflow: hidden;
+}
+.team-members-horizontal-layout .social-icon-link{
+   color:#000;
+   
+}
+.team-members-horizontal-layout h3 {
+    margin: 0 0 5px;
+}
+.team-members-horizontal-layout .member-properties {
+    text-align: left;
+}
+
+.team-members-horizontal-layout .member-properties .position {
+    margin-bottom: 5px;
+}
+
+.team-members-horizontal-layout .team-members-detles {
+    margin-left: 15px;
+}
+
+.team-members-horizontal-layout .members-social-icons ul>li {
+    margin-bottom: 0;
+}
+
+
+.team-members-horizontal-layout .member-img:hover img {transform: scale(1.5);}
+
+.team-members-horizontal-layout .member-img img {
+    transition: 0.5s all;
+}
